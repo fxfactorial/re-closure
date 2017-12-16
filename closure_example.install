@@ -1,0 +1,7 @@
+lib: [
+  "_build/install/default/lib/closure_example/META" {"META"}
+  "_build/install/default/lib/closure_example/opam" {"opam"}
+]
+bin: [
+  "_build/install/default/bin/Closure_example" {"Closure_example"}
+]

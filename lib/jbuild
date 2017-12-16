@@ -1,0 +1,15 @@
+(jbuild_version 1)
+
+(library
+ ((name            closure)
+  (c_names         (google_closure_stubs))
+  (c_flags         (-std=c++14
+                    -x c++
+		    -stdlib=libc++
+		    -I/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/include
+		    -I/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/include/darwin
+		    -I/usr/local/include/jni))
+  (c_library_flags (-lc++
+                    -rpath /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/server
+		    -L/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/server
+		    -ljvm))))
