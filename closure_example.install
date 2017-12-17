@@ -5,3 +5,6 @@ lib: [
 bin: [
   "_build/install/default/bin/Closure_example" {"Closure_example"}
 ]
+doc: [
+  "_build/install/default/doc/closure_example/README.md"
+]

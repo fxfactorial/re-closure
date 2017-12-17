@@ -23,3 +23,5 @@ example invocation of closure.
 # SHIT IS FRAGILE
 
 This is a fragile POC but it could be turned into something cool.
+
+![](./yea-it-works.gif)
